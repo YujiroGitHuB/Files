@@ -26,7 +26,7 @@
                 // Loop through values from 2 to the square root of the number.
                 for ($i = 2; $i <= $num / 2; $i++) {
 
-                    // If the number is divisible by any value from 2 to sqrt($number),
+                    // If the number is divisible by any value from 2 to sqaure root number,
                     // it means the number is not prime, so we return false.
                     if ($num % $i == 0) {
                         return false;
